@@ -2,7 +2,7 @@
   "name": "data-uri-utils",
   "description": "A set of functions for manipuliating data URIs",
   "homepage": "https://nicedoc.io/Kikobeats/data-uri-utils",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "main": "src/index.js",
   "author": {
     "email": "josefrancisco.verdu@gmail.com",
