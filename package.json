@@ -20,7 +20,6 @@
     "data-uri"
   ],
   "dependencies": {
-    "data-uri-regex": "~0.1.4",
     "data-uri-to-buffer": "~3.0.1"
   },
   "devDependencies": {
