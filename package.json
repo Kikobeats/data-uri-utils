@@ -20,7 +20,7 @@
     "data-uri"
   ],
   "dependencies": {
-    "data-uri-to-buffer": "~3.0.1"
+    "data-uri-to-buffer": "~5.0.0"
   },
   "devDependencies": {
     "@commitlint/cli": "latest",
