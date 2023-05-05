@@ -9,7 +9,7 @@ module.exports = {
     input
       .replace('data:;', 'data:null;')
       .replace('data:null;', 'data:image/png;'),
-  toBuffer: require('data-uri-to-buffer'),
+  toBuffer: require('data-uri-to-buffer').dataUriToBuffer,
   test: input => regex().test(input),
   exec: input => regex().exec(input)
 }
