@@ -2,7 +2,7 @@
   "name": "data-uri-utils",
   "description": "A set of functions for manipuliating data URIs",
   "homepage": "https://github.com/Kikobeats/data-uri-utils",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "src/index.js",
   "author": {
     "email": "josefrancisco.verdu@gmail.com",
