@@ -1,7 +1,7 @@
 {
   "name": "data-uri-utils",
   "description": "A set of functions for manipuliating data URIs",
-  "homepage": "https://nicedoc.io/Kikobeats/data-uri-utils",
+  "homepage": "https://github.com/Kikobeats/data-uri-utils",
   "version": "1.0.2",
   "main": "src/index.js",
   "author": {
@@ -47,7 +47,7 @@
   ],
   "scripts": {
     "clean": "rm -rf node_modules",
-    "contributors": "(git-authors-cli && finepack --sort-ignore-object-at ava && git add package.json && git commit -m 'build: contributors' --no-verify) || true",
+    "contributors": "(npx git-authors-cli && npx finepack --sort-ignore-object-at ava && git add package.json && git commit -m 'build: contributors' --no-verify) || true",
     "coverage": "c8 report --reporter=text-lcov > coverage/lcov.info",
     "lint": "standard-markdown README.md && standard",
     "postrelease": "npm run release:tags && npm run release:github && (ci-publish || npm publish --access=public)",
