@@ -30,4 +30,4 @@ dataUri.exec(uri)[2] // => 'image/png'
 **data-uri-utils** © [Kiko Beats](https://kikobeats.com), released under the [MIT](https://github.com/Kikobeats/data-uri-utils/blob/master/LICENSE.md) License.<br>
 Authored and maintained by [Kiko Beats](https://kikobeats.com) with help from [contributors](https://github.com/Kikobeats/data-uri-utils/contributors).
 
-> [kikobeats.com](https://kikobeats.com) · GitHub [Kiko Beats](https://github.com/Kikobeats) · Twitter [@Kikobeats](https://twitter.com/Kikobeats)
+> [kikobeats.com](https://kikobeats.com) · GitHub [Kiko Beats](https://github.com/Kikobeats) · X [@Kikobeats](https://x.com/Kikobeats)
