@@ -1,6 +1,6 @@
 {
   "name": "data-uri-utils",
-  "description": "A set of functions for manipuliating data URIs",
+  "description": "Parse, normalize, test, and convert data URIs to buffers — MIME type, base64, and charset helpers.",
   "homepage": "https://github.com/Kikobeats/data-uri-utils",
   "version": "1.0.13",
   "main": "src/index.js",
@@ -18,7 +18,16 @@
     "url": "https://github.com/Kikobeats/data-uri-utils/issues"
   },
   "keywords": [
-    "data-uri"
+    "base64",
+    "buffer",
+    "charset",
+    "data-uri",
+    "data-url",
+    "mime",
+    "normalize",
+    "parse",
+    "uri",
+    "url"
   ],
   "dependencies": {
     "data-uri-to-buffer": "~5.0.0"
@@ -26,7 +35,6 @@
   "devDependencies": {
     "@commitlint/cli": "latest",
     "@commitlint/config-conventional": "latest",
-    "@ksmithut/prettier-standard": "latest",
     "ava": "latest",
     "c8": "latest",
     "ci-publish": "latest",
@@ -76,7 +84,7 @@
   },
   "nano-staged": {
     "*.js": [
-      "prettier-standard",
+      "npx @kikobeats/prettier-standard",
       "standard --fix"
     ],
     "package.json": [
