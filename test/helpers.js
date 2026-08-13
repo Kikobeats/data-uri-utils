@@ -7,5 +7,7 @@ const dataUri = {
 
 dataUri.withNullMediaType = dataUri.base.replace('image/png', 'null')
 dataUri.withoutMediaType = dataUri.base.replace('image/png', '')
+dataUri.withCharset = 'data:text/plain;charset=utf-8,hello%20world'
+dataUri.withCharsetAndBase64 = 'data:text/plain;charset=UTF-8;base64,SGVsbG8='
 
 module.exports.dataUri = dataUri

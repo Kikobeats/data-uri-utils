@@ -10,6 +10,8 @@ test('true', t => {
   t.true(dataUriUtils.test(dataUri.base))
   t.true(dataUriUtils.test(dataUri.withNullMediaType))
   t.true(dataUriUtils.test(dataUri.withoutMediaType))
+  t.true(dataUriUtils.test(dataUri.withCharset))
+  t.true(dataUriUtils.test(dataUri.withCharsetAndBase64))
 })
 
 test('false', t => {
