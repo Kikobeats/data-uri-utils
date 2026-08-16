@@ -2,7 +2,7 @@
 
 'use strict'
 
-const test = require('ava')
+const test = require('ava').default
 
 const dataUriUtils = require('..')
 
