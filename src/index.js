@@ -2,7 +2,9 @@
 
 /* based on https://github.com/ragingwind/data-uri-regex/blob/master/index.js
 the last update never published at npm */
-const regex = () => /^(data:)([\w/+-]*)(;charset=[\w-]+|;base64){0,1},(.*)/gi
+// charset and base64 are independent parameters (RFC 2397); both may appear.
+const regex = () =>
+  /^(data:)([\w/+-]*)((?:;charset=[\w-]+)?(?:;base64)?),(.*)/i
 
 module.exports = {
   normalize: input =>
