@@ -2,7 +2,7 @@
   "name": "data-uri-utils",
   "description": "Parse, normalize, test, and convert data URIs to buffers — MIME type, base64, and charset helpers.",
   "homepage": "https://github.com/Kikobeats/data-uri-utils",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "main": "src/index.js",
   "author": {
     "email": "josefrancisco.verdu@gmail.com",

@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 1.0.15 (2026-08-16)
+
+
+### Bug Fixes
+
+* accept data URIs with both charset and base64 ([#19](https://github.com/Kikobeats/data-uri-utils/issues/19)) ([30e34be](https://github.com/Kikobeats/data-uri-utils/commit/30e34be316d25bc6d27a9c02d8df0c3092f6389e))
+
 ### 1.0.14 (2026-08-16)
 
 ### 1.0.13 (2026-04-14)
